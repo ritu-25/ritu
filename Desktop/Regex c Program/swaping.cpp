@@ -2,18 +2,11 @@
 #include<stdio.h>
 int main()
 {
-	int a = 45;
-	int b= 44;
-	int temp;
-	
-		temp=a;
-		a= b;
-		b=temp;
-		printf("The swaoping value is %d\n",b,a);
-
-//		temp=b;
-//		b=a;
-//		a=temp;
-//		printf("The swaoping value is %d\n",a);
-	
+  int a=45,b=33,temp;
+  temp = a;
+  a = b;
+  b = temp;
+  printf("After swapping, first number = %d\n", a);
+  printf("After swapping, second number = %d\n", b);
+  return 0;
 }

@@ -1,1 +1,0 @@
-// Pallindrom number?
